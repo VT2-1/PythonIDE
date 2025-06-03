@@ -1,0 +1,28 @@
+{
+  "mainMenu": [
+    {
+      "caption": "Shell",
+      "id": "python-shell",
+      "children": [
+        {
+          "caption": "Run current file",
+          "command": {
+            "command": "RunPyFileCommand"
+          }
+        }
+      ]
+    },
+    {
+      "caption": "Options",
+      "id": "python-options",
+      "children": [
+        {
+          "caption": "Configure Python path",
+          "command": {
+            "command": "ShowPPthDlgCommand"
+          }
+        }
+      ]
+    }
+  ]
+}
