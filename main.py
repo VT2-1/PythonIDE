@@ -140,4 +140,3 @@ class RunPyFileCommand(VtAPI.Plugin.TextCommand):
                 process.start("x-terminal-emulator", ["-e", bash_command])
 
             process.waitForFinished()
-
